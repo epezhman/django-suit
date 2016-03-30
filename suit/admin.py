@@ -2,7 +2,7 @@ import copy
 from django.conf import settings
 from django.contrib.admin import ModelAdmin
 from django.contrib.admin.views.main import ChangeList
-from django.contrib.contenttypes import generic
+from django.contrib.contenttypes import admin as generic
 from django.forms import ModelForm, NumberInput
 from django.contrib import admin
 from django.db import models
